@@ -8,7 +8,7 @@ const Api = () => {
                 <title>Api </title>
                 </Head>
             <div className={InfoapiStyles.textContainer}>
-                <p><a href="#" className={InfoapiStyles["underlined"]+" " + InfoapiStyles["underlined--reversed"]}>http://api.nbp.pl/</a></p>
+                <p><a href="#" className={InfoapiStyles.apiadr}>http://api.nbp.pl/</a></p>
             </div>
         </>
     )
