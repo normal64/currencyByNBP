@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+.header {
+  font-family: 'Lato', sans-serif;
+  background-color: #264653;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1em 1em 0 1em;
+  min-height: 410px;
+  color: #D4D2D5;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.logo {
+  max-width: 50px;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  text-decoration: none;
+  list-style: none;
+  padding: 0 0.5em;
+}
+
+.nav ul li {
+  padding-left: 0.5em;
+}
+
+.accounts {
+  padding-top: 0.5em;
+}
+
+.accounts button {
+  font-family: 'Lato', sans-serif;
+  background: #2A9D8F;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0.2em;
+}
+/*# sourceMappingURL=Header.module.css.map */
