@@ -65,7 +65,7 @@ export default function Home(props) {
       </Head>
       <div className={CurrencyStyles.currencyinfo}>
         <div className={CurrencyStyles.inputs}>
-          <label for="currencyInput"><b>Currency</b></label>
+          <label htmlFor="currencyInput"><b>Currency</b></label>
           <input
             id="currencyInput"
             list="currency"
@@ -74,7 +74,7 @@ export default function Home(props) {
           <datalist id="currency">
             {tableAData ? renderCurrencyCodes(tableType) : "loading"}
           </datalist>
-          <label for="tableType"><b>Table type</b></label>
+          <label htmlFor="tableType"><b>Table type</b></label>
           <input
             id="tableType"
             list="tabletype"
