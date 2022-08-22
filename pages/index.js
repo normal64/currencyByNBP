@@ -43,15 +43,15 @@ export default function Home(props) {
     switch (tableType) {
       case "A":
         return tableAData.map((cur) => {
-          return <option value={cur.code}></option>;
+          return <option key={cur.name} value={cur.code}></option>;
         });
       case "B":
         return tableBData.map((cur) => {
-          return <option value={cur.code}></option>;
+          return <option key={cur.name} value={cur.code}></option>;
         });
       case "C":
         return tableCData.map((cur) => {
-          return <option value={cur.code}></option>;
+          return <option key={cur.name} value={cur.code}></option>;
         });
     }
   };
